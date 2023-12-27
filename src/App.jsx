@@ -2,7 +2,6 @@ import { useState,useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Outer from './Home/Container'
-import Noticeboard from './Home/Noticeboard';
 import About from './Home/About';
 import PortalStrength from './Home/PortalStrength';
 import Footer from './Home/Footer';
@@ -45,7 +44,6 @@ function App() {
       <Route exact path ="/" element={<><Outer>
         <Navigation></Navigation>
         <Slider></Slider>
-       <Noticeboard></Noticeboard>
        <About></About>
        <PortalStrength></PortalStrength>
        <Footer></Footer>
