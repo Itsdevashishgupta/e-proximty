@@ -1,0 +1,12 @@
+.feild-wrapper{
+    padding: 5rem;
+    z-index: 1;
+}
+.Dropdown-box{
+    width: 70%;
+    text-align: start;
+    position:fixed;
+}
+.Dropdown-box:hover{
+    background-color: whitesmoke;
+}

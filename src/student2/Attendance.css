@@ -1,0 +1,34 @@
+.AttendanceOuter{
+    width:100%;
+    height:100vh;
+    background: rgb(247, 245, 245);
+}
+.AttendanceTableOuter{
+    width:70%;
+    min-height:400px;
+    padding-top:5rem;
+    margin:auto;
+}
+.AttendanceTableOuter table{
+    width:100%;
+}
+.AttendanceTableOuter table,.AttendanceTableOuter th,.AttendanceTableOuter td{
+    border:2px solid blue;
+}
+.AttendanceTableOuter th,.AttendanceOuter td{
+    padding:.5rem;
+}
+.AttendanceOuter th{
+    background:#492BA0;
+    color:whitesmoke;
+}
+.greentick{
+    width:100%;
+    height:auto;
+    max-width:1.5rem;
+}
+.redtick{
+    width:100%;
+    height:auto;
+    max-width:1.3rem;
+}

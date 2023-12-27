@@ -1,0 +1,70 @@
+.AboutOuter{
+    min-height:300px;
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin-bottom:4rem;
+   
+}
+.AboutDescriptionSection{
+    width:90%;
+    min-height:100px;
+    border-radius:9px;
+    text-align: left;
+    padding:2rem 0rem 0rem 2rem;
+    background:#FCFAFF;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.AboutPhotoSection{
+    width:90%;
+    height:250px;
+}
+@media (min-width:1200px) {
+    .AboutDescriptionSection{
+        width:48%;
+    } 
+    .AboutPhotoSection{
+        width:40%;
+        height:250px;
+    }
+}
+.caption{
+    text-align: center;
+}
+.About-image-caption{
+    width: 35%;
+    margin: auto;
+    align-items: center;
+}
+.AboutImg{
+    height: auto;
+    width: 100%;
+    max-width: 200px;
+    margin-top: 2rem;
+}
+.AboutImageCaption{
+    color:rgb(142, 28, 28);
+    font-size:.8rem;
+    font-weight: bold;
+}
+.AboutImageCaptionbottom{
+    font-size: .8rem;
+    color:rgb(102, 106, 106);
+}
+.AboutDescriptionHeading{
+    font-size:1rem;
+    font-weight:bold;
+    color:rgb(36, 36, 144);
+}
+.Aboutunderline{
+    border-bottom:.2rem solid rgb(36, 36, 144);
+    border-radius:5%;
+}
+.AboutDescription{
+    width:85%;
+    margin-top:2rem;
+    font-size:.9rem;
+    color:rgb(102, 102, 103);
+    line-height: 20px;
+}

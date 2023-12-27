@@ -1,0 +1,17 @@
+{
+  "days": [
+    {
+
+      "day": "Monday",
+      "schedule": [
+        { "time": "12:00 PM","end":"01:00PM", "subject": "Math", "faculty": "John Doe","attendence":"absent" },
+        { "time": "10:00 AM","end":"11:00AM", "subject": "Science", "faculty": "Jane Smith","attendence":"present" },
+        { "time": "10:00 AM","end":"11:00AM", "subject": "Science", "faculty": "Jane Smith","attendence":"present" },
+        { "time": "10:00 AM","end":"11:00AM", "subject": "Science", "faculty": "Jane Smith","attendence":"present" },
+        { "time": "10:00 AM","end":"11:00AM", "subject": "Science", "faculty": "Jane Smith","attendence":"present" }
+     
+      ]
+    }
+
+  ]
+}

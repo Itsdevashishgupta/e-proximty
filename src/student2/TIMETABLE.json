@@ -1,0 +1,16 @@
+{
+  "days": [
+    {
+
+      "day": "Monday",
+      "schedule": [
+        { "time": "02:00 PM","end":"03:00 PM", "subject": "Math", "faculty": "Sri nath dwedi","attendence":"Present" },
+        { "time": "03:00 PM","end":"04:00 PM", "subject": "Science", "faculty": "Rohit Sharma","attendence":"Present" },
+        { "time": "10:00 AM","end":"11:00 AM", "subject": "Science", "faculty": "Rohit Sharma","attendence":"Present" },
+        { "time": "10:00 AM","end":"11:00 AM", "subject": "Science", "faculty": "Rohit Sharma","attendence":"Present" },
+        { "time": "10:00 AM","end":"11:00 AM", "subject": "Science", "faculty": "Rohit Sharma","attendence":"Present" }
+     
+      ]
+    }
+  ]
+}

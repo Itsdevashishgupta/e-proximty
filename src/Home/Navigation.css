@@ -1,0 +1,53 @@
+.navigtioncss{
+    background-color: #492BA0;
+}
+.lower-header{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.collegelogo{
+    height: auto;
+    width: 100%;
+    max-width: 100px;
+}
+.collegetitle{
+    width: 400px;
+    display: flex;
+    margin: 1rem;
+    gap: 1rem;
+
+}
+.addresstitle{
+    width: 285px;
+    min-height:80px;
+    display: flex;
+    margin-top: 2rem;
+}
+.locationlogo{
+    width: 100%;
+    height: auto;
+    max-width: 20px;
+}
+.title{
+    font-size:.6rem;
+    font-weight: 500;
+    margin-top: 10px;
+    word-spacing: 2px;
+    color: rgb(102, 99, 99);
+    margin-left:0.2rem;
+}
+.address{
+    font-size:.5rem;
+}
+@media (min-width:1200px) {
+    .title{
+        font-size: 1rem;
+        margin-top:1rem;
+    }
+    .address{
+        font-size:.8rem;
+    }
+}

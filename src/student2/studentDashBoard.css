@@ -1,0 +1,58 @@
+.FacultyRightSection{
+    height:100vh;
+    width:100%;
+}
+.menu{
+    height:60px;
+    width:100%;
+    align-items: right;
+}
+.DashBoardprofile{
+    height:60px;
+    width:100px;
+    padding-top:.5rem;
+}
+.DashBoardProfileImageOuter{
+    width:50px;
+    height:50px;
+    margin:auto;
+}
+.DashBoardProfileImage{
+    width:100%;
+    height:auto;
+    max-width:40px;
+    border-radius: 50%;
+}
+.FacultyDashBoardContent{
+    min-height:600px;
+    width:100%;
+    padding:4rem;
+}
+h3{
+    color:rgb(66, 65, 65);
+}
+.ScheduleChartOuter{
+    min-height:300px;
+    width:100%;
+    margin:auto;
+    margin-top:2rem;
+}
+@media (min-width:1200px) {
+    .ScheduleChartOuter{
+        width:90%;
+    }
+}
+.ScheduleChartOuter table{
+    width:100%;
+}
+.ScheduleChartOuter table,.ScheduleChartOuter th,.ScheduleChartOuter td{
+    border:1px solid blue;
+    color:rgb(66, 65, 65);
+}
+.ScheduleChartOuter td,.ScheduleChartOuter th{
+    padding:.5rem;
+}
+.ScheduleChartOuter th{
+    background:#492BA0;
+    color:whitesmoke;
+}
